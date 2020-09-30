@@ -6,3 +6,7 @@
 	path = aal
 	url = ./aal
 	datalad-id = 2deac8fc-0378-11eb-aebd-acde48001122
+[submodule "brainnectome"]
+	path = brainnectome
+	url = ./brainnectome
+	datalad-id = 375a0f10-0378-11eb-9782-acde48001122
