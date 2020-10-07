@@ -12,7 +12,7 @@ Currently this dataset contains:
 Each of the above atlases are recorded as individual nested subdatasets according to datalad's workflows.
 
 The origin of this dataset is `RAD-4BUJGH6-LT`, the lab's Mac laptop, created by Xihe Xie. This dataset has the following siblings:
-     - `sachin`: [ssh://sachin/media/rajlab/DATASETS/Human_Brain_Atlases/brainnectome (git)]
+     - `sachin`: [ssh://sachin/media/rajlab/DATASETS/Human_Brain_Atlases/ (git)]
 
 #### Notes
  - `aal` contains only AAL2 right now, AAL3 has been released but has not been added to this dataset. Someone also needs to create and validate a LUT file if you want to use this atlas as an template. (Looking for help)
