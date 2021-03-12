@@ -1,12 +1,12 @@
 [submodule "desikan-killiany"]
 	path = desikan-killiany
-	url = ./desikan-killiany
+	url = https://github.com/Raj-Lab-UCSF/Human_Brain_Atlases-desikan-killiany
 	datalad-id = 1cf54c48-0378-11eb-b46b-acde48001122
 [submodule "aal"]
 	path = aal
-	url = ./aal
+	url = https://github.com/Raj-Lab-UCSF/Human_Brain_Atlases-aal
 	datalad-id = 2deac8fc-0378-11eb-aebd-acde48001122
 [submodule "brainnectome"]
 	path = brainnectome
-	url = ./brainnectome
+	url = https://github.com/Raj-Lab-UCSF/Human_Brain_Atlases-brainnectome
 	datalad-id = 375a0f10-0378-11eb-9782-acde48001122
