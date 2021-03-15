@@ -1,1 +1,2 @@
 b7d65b91-012b-40a1-ae66-e5b2cfe37e39 embedcreds=no encryption=none name=github-lfs type=git-lfs url=git@github.com:Raj-Lab-UCSF/Human_Brain_Atlases.git timestamp=1615478873.344864s
+d47c823d-af88-4837-bd0f-c4dd3b843b9a autoenable=true encryption=none externaltype=osf name=osf-storage node=pvkbw type=external timestamp=1615836071.657686s
