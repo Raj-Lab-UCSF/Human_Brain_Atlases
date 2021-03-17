@@ -10,3 +10,6 @@
 	path = brainnectome
 	url = https://github.com/Raj-Lab-UCSF/Human_Brain_Atlases-brainnectome
 	datalad-id = 375a0f10-0378-11eb-9782-acde48001122
+[submodule "glasser"]
+	path = glasser
+	url = ./glasser
