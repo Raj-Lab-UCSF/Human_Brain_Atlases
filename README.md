@@ -8,6 +8,7 @@ Currently this dataset contains:
     - AAL2
     - Brainnectome 246 regions
     - Desikan-Killiany 86 regions
+    - Glasser (HCP)
 
 Each of the above atlases are recorded as individual nested subdatasets according to datalad's workflows.
 
@@ -17,3 +18,4 @@ The origin of this dataset is `RAD-4BUJGH6-LT`, the lab's Mac laptop, created by
 #### Notes
  - `aal` contains only AAL2 right now, AAL3 has been released but has not been added to this dataset. Someone also needs to create and validate a LUT file if you want to use this atlas as an template. (Looking for help)
  - `desikan-killiany` contains a modified Freesurfer parcellation provided by Sneha Pandya. Please use carefully, be especially careful of your region ordering. 
+ - `glasser` contains a 256x256x256 grid file (`MMP_in_MNI_corr.nii.gz`) and a 182x218x182 grid file (`HCP-MMP_1mm.nii.gz`) both in 1mm resolution.
