@@ -12,4 +12,4 @@
 	datalad-id = 375a0f10-0378-11eb-9782-acde48001122
 [submodule "glasser"]
 	path = glasser
-	url = https://github.com/Raj-Lab-UCSF/Human_Brain_Atlases-glasser.git 
+	url = https://github.com/Raj-Lab-UCSF/Human_Brain_Atlases-glasser 
