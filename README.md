@@ -12,8 +12,35 @@ Currently this dataset contains:
 
 Each of the above atlases are recorded as individual nested subdatasets according to datalad's workflows.
 
-The origin of this dataset is `RAD-4BUJGH6-LT`, the lab's Mac laptop, created by Xihe Xie. This dataset has the following siblings:
+The origin of this dataset is the lab's Mac laptop, created by Xihe Xie. This dataset has the following siblings:
      - `sachin`: [ssh://sachin/media/rajlab/DATASETS/Human_Brain_Atlases/ (git)]
+     - `github`: [git@github.com:Raj-Lab-UCSF/Human_Brain_Atlases.git (git)]
+
+### Cloning:
+---
+A DataLad dataset can be cloned by running
+
+```
+datalad clone <url>
+```
+
+Once a dataset is cloned, it is a light-weight directory on your local machine. At this point, it contains only small metadata and information on the identity of the files in the dataset, but not actual content of the (sometimes large) data files.
+
+#### Retrieve dataset content
+
+After cloning a dataset, you can retrieve file contents by running
+
+```
+datalad get <path/to/directory/or/file>
+```
+
+This command will trigger a download of the files, directories, or subdatasets you have specified.
+
+DataLad datasets can contain other datasets, so called subdatasets. If you clone the top-level dataset, subdatasets do not yet contain metadata and information on the identity of files, but appear to be empty directories. In order to retrieve file availability metadata in subdatasets, run
+
+```
+datalad get -n <path/to/subdataset>
+```
 
 #### Notes
  - `aal` contains only AAL2 right now, AAL3 has been released but has not been added to this dataset. Someone also needs to create and validate a LUT file if you want to use this atlas as an template. (Looking for help)
